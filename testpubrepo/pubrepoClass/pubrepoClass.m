@@ -10,4 +10,6 @@
 
 @implementation pubrepoClass
 
++(void)testMethod;
+
 @end
