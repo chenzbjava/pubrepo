@@ -10,6 +10,8 @@
 
 @implementation pubrepoClass
 
-+(void)testMethod;
++(void)testMethod {
+    NSLog(@"test");
+}
 
 @end

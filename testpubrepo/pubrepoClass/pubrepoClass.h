@@ -12,10 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface pubrepoClass : NSObject
 
++(void)testMethod;
 
-+(void)testMethod {
-    NSLog(@"test");
-}
+
 
 @end
 
