@@ -13,6 +13,7 @@
 		AE8B46A0221C04B300BF3CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8B469F221C04B300BF3CC4 /* Assets.xcassets */; };
 		AE8B46A3221C04B300BF3CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8B46A1221C04B300BF3CC4 /* LaunchScreen.storyboard */; };
 		AE8B46A6221C04B300BF3CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B46A5221C04B300BF3CC4 /* main.m */; };
+		AE8B46B2221C1E3200BF3CC4 /* pubrepoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B46B0221C1E3100BF3CC4 /* pubrepoClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AE8B46A2221C04B300BF3CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8B46A4221C04B300BF3CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8B46A5221C04B300BF3CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE8B46B0221C1E3100BF3CC4 /* pubrepoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pubrepoClass.m; sourceTree = "<group>"; };
+		AE8B46B1221C1E3100BF3CC4 /* pubrepoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pubrepoClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		AE8B468A221C04B300BF3CC4 = {
 			isa = PBXGroup;
 			children = (
+				AE8B46AF221C1E3100BF3CC4 /* pubrepoClass */,
 				AE8B4695221C04B300BF3CC4 /* testpubrepo */,
 				AE8B4694221C04B300BF3CC4 /* Products */,
 			);
@@ -69,6 +73,15 @@
 				AE8B46A5221C04B300BF3CC4 /* main.m */,
 			);
 			path = testpubrepo;
+			sourceTree = "<group>";
+		};
+		AE8B46AF221C1E3100BF3CC4 /* pubrepoClass */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B46B0221C1E3100BF3CC4 /* pubrepoClass.m */,
+				AE8B46B1221C1E3100BF3CC4 /* pubrepoClass.h */,
+			);
+			path = pubrepoClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8B46B2221C1E3200BF3CC4 /* pubrepoClass.m in Sources */,
 				AE8B469B221C04B300BF3CC4 /* ViewController.m in Sources */,
 				AE8B46A6221C04B300BF3CC4 /* main.m in Sources */,
 				AE8B4698221C04B300BF3CC4 /* AppDelegate.m in Sources */,
