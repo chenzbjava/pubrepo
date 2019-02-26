@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2B93102225350900E3C398 /* testString.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B930F2225350900E3C398 /* testString.m */; };
 		AE8B4698221C04B300BF3CC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B4697221C04B300BF3CC4 /* AppDelegate.m */; };
 		AE8B469B221C04B300BF3CC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B469A221C04B300BF3CC4 /* ViewController.m */; };
 		AE8B469E221C04B300BF3CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8B469C221C04B300BF3CC4 /* Main.storyboard */; };
 		AE8B46A0221C04B300BF3CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8B469F221C04B300BF3CC4 /* Assets.xcassets */; };
 		AE8B46A3221C04B300BF3CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8B46A1221C04B300BF3CC4 /* LaunchScreen.storyboard */; };
 		AE8B46A6221C04B300BF3CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B46A5221C04B300BF3CC4 /* main.m */; };
-		AE8B46B2221C1E3200BF3CC4 /* pubrepoClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8B46B0221C1E3100BF3CC4 /* pubrepoClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE2B930E2225350900E3C398 /* testString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testString.h; sourceTree = "<group>"; };
+		AE2B930F2225350900E3C398 /* testString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testString.m; sourceTree = "<group>"; };
 		AE8B4693221C04B300BF3CC4 /* testpubrepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testpubrepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8B4696221C04B300BF3CC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE8B4697221C04B300BF3CC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		AE8B46A2221C04B300BF3CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE8B46A4221C04B300BF3CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8B46A5221C04B300BF3CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE8B46B0221C1E3100BF3CC4 /* pubrepoClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pubrepoClass.m; sourceTree = "<group>"; };
-		AE8B46B1221C1E3100BF3CC4 /* pubrepoClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pubrepoClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,10 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE2B930D222534F500E3C398 /* testSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B930E2225350900E3C398 /* testString.h */,
+				AE2B930F2225350900E3C398 /* testString.m */,
+			);
+			path = testSDK;
+			sourceTree = SOURCE_ROOT;
+		};
 		AE8B468A221C04B300BF3CC4 = {
 			isa = PBXGroup;
 			children = (
-				AE8B46AF221C1E3100BF3CC4 /* pubrepoClass */,
 				AE8B4695221C04B300BF3CC4 /* testpubrepo */,
 				AE8B4694221C04B300BF3CC4 /* Products */,
 			);
@@ -62,6 +70,7 @@
 		AE8B4695221C04B300BF3CC4 /* testpubrepo */ = {
 			isa = PBXGroup;
 			children = (
+				AE2B930D222534F500E3C398 /* testSDK */,
 				AE8B4696221C04B300BF3CC4 /* AppDelegate.h */,
 				AE8B4697221C04B300BF3CC4 /* AppDelegate.m */,
 				AE8B4699221C04B300BF3CC4 /* ViewController.h */,
@@ -73,15 +82,6 @@
 				AE8B46A5221C04B300BF3CC4 /* main.m */,
 			);
 			path = testpubrepo;
-			sourceTree = "<group>";
-		};
-		AE8B46AF221C1E3100BF3CC4 /* pubrepoClass */ = {
-			isa = PBXGroup;
-			children = (
-				AE8B46B0221C1E3100BF3CC4 /* pubrepoClass.m */,
-				AE8B46B1221C1E3100BF3CC4 /* pubrepoClass.h */,
-			);
-			path = pubrepoClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE8B46B2221C1E3200BF3CC4 /* pubrepoClass.m in Sources */,
 				AE8B469B221C04B300BF3CC4 /* ViewController.m in Sources */,
 				AE8B46A6221C04B300BF3CC4 /* main.m in Sources */,
+				AE2B93102225350900E3C398 /* testString.m in Sources */,
 				AE8B4698221C04B300BF3CC4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
