@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface pubrepoClass : NSObject
+@interface pubrepoClass1 : NSObject
 
 +(void)testMethod;
 

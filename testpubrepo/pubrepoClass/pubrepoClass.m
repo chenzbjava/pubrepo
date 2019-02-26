@@ -6,9 +6,9 @@
 //  Copyright © 2019 QITMAC000578. All rights reserved.
 //
 
-#import "pubrepoClass.h"
+#import "pubrepoClass1.h"
 
-@implementation pubrepoClass
+@implementation pubrepoClass1
 
 +(void)testMethod {
     NSLog(@"test");
